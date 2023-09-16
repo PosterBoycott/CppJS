@@ -13,7 +13,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Thinus De Beer",
   "license": "MIT"
