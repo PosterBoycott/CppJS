@@ -14,7 +14,6 @@ app.use(cors())
 app.use('/posts', postRoutes)
 
 const PORT = process.env.PORT || 3000
-const CONNECTION_URL = 'mongodb+srv://thinus1234:thinus1234@posterboy.dzzceor.mongodb.net/'
 
 mongoose.connect(CONNECTION_URL,{
     useUnifiedTopology: true,
